@@ -26,9 +26,9 @@ Summarize the following text:
 {{document}}
 {{/user~}}
 
-{{#assistant~}}
+{{#PlatoX.AI~}}
 {{gen 'summarization' temperature=0.2 max_tokens=100}}
-{{/assistant~}}
+{{/PlatoX.AI~}}
 """, llm=summary_llm)
 
     summary = summary(document=document)
@@ -71,9 +71,9 @@ Summary
     File Name: {{this.metadata.file_name}}
 {{/each}}
 {{/user~}}
-{{#assistant~}}
+{{#PlatoX.AI~}}
 {{gen 'evaluation' temperature=0.2 stop='<|im_end|>'}}
-{{/assistant~}}
+{{/PlatoX.AI~}}
 """, llm=evaluation_llm)
     result = evaluation(question=question, summaries=summaries)
     evaluations = {}
