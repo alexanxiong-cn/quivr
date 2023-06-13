@@ -43,12 +43,7 @@ export const NavItems: FC<NavItemsProps> = ({
         </>
       ) : (
         <>
-          <NavLink setOpen={setOpen} to="https://github.com/StanGirard/quivr">
-            Github
-          </NavLink>
-          <NavLink setOpen={setOpen} to="https://discord.gg/HUpRgp2HG8">
-            Discord
-          </NavLink>
+
         </>
       )}
       <div className="flex sm:flex-1 sm:justify-end flex-col items-center justify-center sm:flex-row gap-5 sm:gap-2">

@@ -47,11 +47,6 @@ const Hero: FC = () => {
         <Link href={"/signup"}>
           <Button>Get Started</Button>
         </Link>
-        <Link target="_blank" href={"https://github.com/StanGirard/quivr/"}>
-          <Button variant={"tertiary"}>
-            Github <MdNorthEast />
-          </Button>
-        </Link>
       </motion.div>
       <motion.video
         style={{ scale: videoScale }}
