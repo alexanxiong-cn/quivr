@@ -2,6 +2,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
     "http://localhost",
+    "http://wiki.platox.ai",
     "http://localhost:3000",
     "https://quivr.app",
     "https://www.quivr.app",
