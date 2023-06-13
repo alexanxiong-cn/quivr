@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ## The Vision
 
-Quivr is a platform for building second brains and personnal assistants. It is a tool for thinking, learning and creating. 
+Quivr is a platform for building second brains and personnal PlatoX.AI. It is a tool for thinking, learning and creating. 
 
 - [X] **v0.1** - the Webapp
   - [x] Basic CRUD operations

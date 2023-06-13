@@ -71,14 +71,14 @@ def chat_handler(request, commons, chat_id, chat_message, email, is_new_chat=Fal
     else:
         update_user_request_count(email=email, date=date, requests_count=old_request_count + 1)
     if user_openai_api_key is None and old_request_count >= float(max_requests_number):
-        history.append(('assistant', "You have reached your requests limit"))
+        history.append(('PlatoX.AI', "You have reached your requests limit"))
         update_chat(chat_id=chat_id, history=history)
         return {"history": history}
 
 
 
     answer = get_answer(commons, chat_message, email, user_openai_api_key)
-    history.append(("assistant", answer))
+    history.append(("PlatoX.AI", answer))
 
     if is_new_chat:
         chat_name = get_chat_name_from_first_question(chat_message)
