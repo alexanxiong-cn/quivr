@@ -8,10 +8,10 @@ export const Logo = () => {
         className="rounded-full"
         src={"/logo.png"}
         alt="Quivr Logo"
-        width={96}
-        height={48}
+        width={110}
+        height={30}
       />
-   
+
     </Link>
   );
 };
