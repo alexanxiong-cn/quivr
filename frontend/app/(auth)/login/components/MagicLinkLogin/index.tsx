@@ -1,4 +1,4 @@
-"use client";
+F"use client";
 import Button from "@/app/components/ui/Button";
 import { useSupabase } from "@/app/supabase-provider";
 import { useToast } from "@/lib/hooks/useToast";
