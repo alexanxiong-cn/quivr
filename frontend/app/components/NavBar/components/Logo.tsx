@@ -8,7 +8,7 @@ export const Logo = () => {
         className="rounded-full"
         src={"/logo.png"}
         alt="Quivr Logo"
-        width={110}
+        width={120}
         height={30}
       />
 
