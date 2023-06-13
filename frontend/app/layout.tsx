@@ -12,9 +12,9 @@ import SupabaseProvider from "./supabase-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Quivr - Get a Second Brain with Generative AI",
+  title: "PlatoX.AI - Get a Second Brain with Generative AI",
   description:
-    "Quivr is your second brain in the cloud, designed to easily store and retrieve unstructured information.",
+    "PlatoX.AI is your second brain in the cloud, designed to easily store and retrieve unstructured information.",
 };
 
 export default async function RootLayout({
