@@ -5,6 +5,7 @@ origins = [
     "https://localhost",
     "http://wiki.platox.ai",
     "https://wiki.platox.ai",
+    "https://wiki.platox.ai:5555",
     "http://localhost:3000",
     "https://quivr.app",
     "https://www.quivr.app",
